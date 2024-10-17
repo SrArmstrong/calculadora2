@@ -34,18 +34,23 @@ h2 {
     letter-spacing: 0.5px;
 }
 
-.form {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 15px;
-    margin-bottom: 20px;
-}
+
 
 label {
     color: #7f8c8d;
     font-weight: 500;
     font-size: 16px;
     text-align: left;
+}
+
+input[type="text"] {
+    padding: 12px 10px;
+    font-size: 16px;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    width: 100%;
 }
 
 input[type="number"] {
